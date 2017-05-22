@@ -28,6 +28,17 @@ h2{
 	margin-bottom:20px;
 }
 
+h3{
+ 	width:100%;
+ 	z-index:2; 
+	background-color:#4AAAA5; 
+	color:#FFF; 
+	padding:20px;
+	margin-bottom:30px;
+	position:absolute;
+	bottom:0px;
+}
+
 h4{
 	color:#4AAAA5;
 	border-bottom: 2px solid #CCC;
@@ -47,6 +58,7 @@ body{
 	color:#777;
 	background-color:#FFF;
 	border-color:#DDD;
+	width:100%;
 }
 
 footer{
@@ -58,12 +70,8 @@ footer{
 	clear:both;
 	bottom:0;
 	width:100%;
+	z-index:2;
 }
-
-/*
-h1, h2, h3, p, div, footer, header{
-	border:solid;
-*/
 
 form{
 	background-color:#FFF;
@@ -72,7 +80,36 @@ form{
 .icons{
 	height:50px;
 	width:50px;
+	position:relative;
+}
 
+.portfolio-wrapper{
+	position:relative;
+}
+
+.banner-wrapper{
+	position:absolute;
+	width:100%;
+}
+
+#masthead {
+  z-index: 99;
+  width: 100%;
+  overflow: auto;
+  color: #fff;
+  background: #fff;
+  border-bottom: 2px solid #ccc;
+}
+
+#linkBox{
+	 padding-left:40px; 
+	 margin-top:30px; 
+	 margin-bottom:20px
+}
+
+#links{
+	padding-top:0px; 
+	padding-bottom:0px;
 }
 
 #vertLines{
@@ -100,6 +137,11 @@ form{
 	margin-top:40px;
 	padding:20px;
 	border: 2px solid #DDD;
+	position:relative
+}
+
+#socMedia{
+	position:relative;
 }
 
 #myPic{
@@ -109,4 +151,15 @@ form{
 	border-color:#CCC;
 	border-radius:100%;
 	float:left;
+}
+
+#portPics{
+	width:100%;
+	margin-bottom:20px;
+	position:relative;
+	z-index:1;
+}
+
+#widthMax{
+	max-width:670px;
 }

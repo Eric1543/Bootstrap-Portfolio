@@ -12,10 +12,9 @@
 	</head>
 	
 	<body>
-
-		<header id="masthead">
-			<div class="container-fluid">
-				<div class="row">
+		<header>
+			<div class="row">
+				<div class="container-fluid">
 					<div class="col-md-1">
 					</div>
 					<div class="col-md-3">
@@ -24,10 +23,10 @@
 					<div class="col-md-3">
 					</div>
 					<div class="col-md-5">
-						<ul class="nav nav-pills" style="padding-left:40px; margin-top:30px; margin-bottom:20px">
-							<li><a style="padding-top:0px; padding-bottom:0px" href="index.html">About</a></li>
-							<li style="border-left: 1px solid #CCC; border-right:1px solid #CCC"><a style="padding-top:0px; padding-bottom:0px" href="portfolio.html">Portfolio</a></li>
-							<li><a style="padding-top:0px; padding-bottom:0px" href="contact.html">Contacts</a></li>
+						<ul class="nav nav-pills" id="linkBox">
+							<li><a id="links" href="index.html">About</a></li>
+							<li id="vertLines"><a id="links" href="portfolio.html">Portfolio</a></li>
+							<li><a id="links" href="contact.html">Contacts</a></li>
 						</ul>
 					</div>
 				</div>
@@ -38,54 +37,73 @@
 			<div class="row">
 				<div class="col-md-1">
 				</div>
-				<div id="Main" class="col-md-6" style="height:900px; overflow:auto">
+				<section id="Main" class="col-md-6">
+
 					<h2>
 					Portfolio
 					</h2>
-					<div class="row" style="padding-bottom:20px; padding-top:10px">
-						<div class="col-md-6">
-							<img style="position:absolute;width:90%; overflow:wrap" class="img-responsive" src="assets/images/technics-q-c-640-480-1.jpg" alt="Hangman" />
-							<h3 style="position:absolute; margin-top: 144px; z-index:2; background-color:#4AAAA5; color:#FFF; width:90%;padding:20px" class="text-center">Hangman</h3>
-						</div>
-						<div class="col-md-6">
-							<img style="position:absolute;width:90%; overflow:wrap" class="img-responsive" src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game" />
-							<h3 style="position:absolute; margin-top: 144px; z-index:2; background-color:#4AAAA5; color:#FFF; width:90%;padding:20px" class="text-center">RPG Game</h3>
-						</div>
-					</div>
-					<div class="row" style="padding-bottom:20px; padding-top:10px">
-						<div class="col-md-6">
-							<img style="position:absolute;width:90%;margin-top:70%" class="img-responsive" src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game" />
-							<h3 style="position:absolute; margin-top: 114%; z-index:2; background-color:#4AAAA5; color:#FFF; width:90%;padding:20px" class="text-center">Trivia Game</h3>
-						</div>
-						<div class="col-md-6">
-							<img style="position:absolute;width:90%;margin-top:70%" class="img-responsive" src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget" />
-							<h3 style="position:absolute; margin-top: 114%; z-index:2; background-color:#4AAAA5; color:#FFF; width:90%;padding:20px" class="text-center">Rutgers Info Widget</h3>
-						</div>
-					</div>
-					<div class="row" style="padding-bottom:20px; padding-top:10px">
-						<div class="col-md-6">
-							<img style="position:absolute;width:90%;margin-top:140%" class="img-responsive" src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors" />
-							<h3 style="position:absolute; margin-top: 184%; z-index:2; background-color:#4AAAA5; color:#FFF; width:90%;padding:20px" class="text-center">Rock Paper Scissors</h3>
-						</div>
-					</div>
-				</div>
 
-				<div id="ConnectWithMe" class="col-md-2 text-center">
+					<div class="row">
+						<div class="col-sm-6 col-md-6" id="widthMax">
+							<div class="portfolio-wrapper">
+								<img id="portPics" class="img-responsive" src="assets/images/technics-q-c-640-480-1.jpg" alt="Hangman" />
+							<div class="banner-wrapper">
+								<h3 id="portImgHdr" class="text-center">Hangman</h3>				
+							</div>
+							</div>	
+						</div>
+						<div class="col-sm-6 col-md-6" id="widthMax">
+							<div class="portfolio-wrapper">
+								<img id="portPics" class="img-responsive" src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game" />
+								<div class="banner-wrapper">
+									<h3 id="portImgHdr" class="text-center">RPG Game</h3>				
+								</div>
+							</div>	
+						</div>
+						<div class="col-sm-6 col-md-6" id="widthMax">
+							<div class="portfolio-wrapper">
+								<img id="portPics" class="img-responsive" src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game" />
+							<div class="banner-wrapper">
+								<h3 id="portImgHdr" class="text-center">Trivia Game</h3>				
+							</div>
+							</div>	
+						</div>
+						<div class="col-sm-6 col-md-6" id="widthMax">
+							<div class="portfolio-wrapper">
+								<img id="portPics" class="img-responsive" src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget" />
+								<div class="banner-wrapper">
+									<h3 id="portImgHdr" class="text-center">Rutgers Info Widget</h3>				
+								</div>
+							</div>	
+						</div>
+						<div class="col-sm-6 col-md-6" id="widthMax">
+							<div class="portfolio-wrapper">
+								<img id="portPics" class="img-responsive" src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors" />
+								<div class="banner-wrapper">
+									<h3 id="portImgHdr" class="text-center">Rock Paper Scissors</h3>				
+								</div>
+							</div>	
+						</div>
+					</div>
+				</section>
+
+				<section id="ConnectWithMe" class="col-md-2 text-center">
 					<h4>Connect With Me</h4>
 
-					<div class="row text-center">
-						<div class="col-md-4"><a style="margin:0px" href="" target="blank"><img style="margin:0px" class="icons" src="assets/images/github-128.png" alt="github icon"></a></div>
-						<div class="col-md-4"><a href="" target="blank"><img class="icons" src="assets/images/stackoverflow-128.png" alt="stackoverflow icon" /></a></div>
-						<div class="col-md-4"><a href="" target="blank"><img class="icons" src="assets/images/linkedin-128.png" alt="linkedin icon" /></a></div>
-					</div>
-				</div>
+						<div class="row text-center">
+							<div class="col-md-4"><a href="" target="blank"><img class="icons" src="assets/images/github-128.png" alt="github icon"></a></div>
+							<div class="col-md-4"><a href="" target="blank"><img class="icons" src="assets/images/stackoverflow-128.png" alt="stackoverflow icon" /></a></div>
+							<div class="col-md-4"><a href="" target="blank"><img class="icons" src="assets/images/linkedin-128.png" alt="linkedin icon" /></a></div>
+						</div>
+				</section>
 			</div>
 		</div>
 
-		<footer class="container-fluid" style="z-index:2">
-				<div class="container">
+		<footer class="container-fluid">
+			<div class="container">
 				Copyright 2017 Eric Williams
-				</div>
+			</div>
 		</footer>
+
 	</body>
 </html>

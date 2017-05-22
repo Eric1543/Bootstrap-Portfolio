@@ -12,36 +12,33 @@
 	</head>
 	
 	<body>
-		<div class="container-fluid" style="height:100%">
-			<header>
-
-				<div class="row">
+		<header>
+			<div class="row">
+				<div class="container-fluid">
 					<div class="col-md-1">
 					</div>
-
 					<div class="col-md-3">
 						<h1>Eric Williams</h1>
 					</div>
-
 					<div class="col-md-3">
 					</div>
-
 					<div class="col-md-5">
-						<ul class="nav nav-pills" style="padding-left:40px; margin-top:30px; margin-bottom:20px">
-							<li><a style="padding-top:0px; padding-bottom:0px" href="index.html">About</a></li>
-							<li style="border-left: 1px solid #CCC; border-right:1px solid #CCC"><a style="padding-top:0px; padding-bottom:0px" href="portfolio.html">Portfolio</a></li>
-							<li><a style="padding-top:0px; padding-bottom:0px" href="contact.html">Contacts</a></li>
-						</ul>					
+						<ul class="nav nav-pills" id="linkBox">
+							<li><a id="links" href="index.html">About</a></li>
+							<li id="vertLines"><a id="links" href="portfolio.html">Portfolio</a></li>
+							<li><a id="links" href="contact.html">Contacts</a></li>
+						</ul>
 					</div>
-
 				</div>
-			</header>
+			</div>
+		</header>
 
-			<div class="row" style="min-height:550px; background-image:url(assets/images/cheap_diagonal_fabric.png)">
-					<div class="col-md-1">
-					</div>
+		<div class="container-fluid" style="background-image:url(assets/images/cheap_diagonal_fabric.png")>
+			<div class="row">
+				<div class="col-md-1">
+				</div>
 
-					<div id="Main" class="col-md-6">
+					<section id="Main" class="col-md-6">
 						<form class="col-md-8">
 							<div class="form-group">
 								<label for="Name">Name</label>
@@ -57,17 +54,17 @@
 							</div>
 								<button type="submit" class="btn btn-default">Submit</button>
 						</form>
-					</div>
+					</section>
 
-					<div id="ConnectWithMe" class="col-md-2 text-center">
+					<section id="ConnectWithMe" class="col-md-2 text-center">
 						<h4>Connect With Me</h4>
 
 						<div class="row text-center">
-							<div class="col-md-4"><a style="margin:0px" href="" target="blank"><img style="margin:0px" class="icons" src="assets/images/github-128.png" alt="github icon"></a></div>
+							<div id="socMedia" class="col-md-4"><a href="" target="blank"><img class="icons" src="assets/images/github-128.png" alt="github icon"></a></div>
 							<div class="col-md-4"><a href="" target="blank"><img class="icons" src="assets/images/stackoverflow-128.png" alt="stackoverflow icon" /></a></div>
 							<div class="col-md-4"><a href="" target="blank"><img class="icons" src="assets/images/linkedin-128.png" alt="linkedin icon" /></a></div>
 						</div>
-					</div>
+					</section>
 
 					<div class="col-md-1">
 					</div>
@@ -77,6 +74,7 @@
 						Copyright 2017 Eric Williams
 						</div>
 				</footer>
+		</div>
 		</div>
 	</body>
 </html>
